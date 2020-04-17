@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+.ly_top_map{padding: 3%;background: #f8f8f8;}
+.hbtn{position: relative;}
+.hbtn li{float: left;width: 25%;text-align: center;padding-bottom: 1rem;}
+.hbtn li .pc{width: 60%;}
+.hbtn li .t{width: 100%;text-align: center;font-size: 1.8rem;}
+
+.ly_ctit{text-align: center;}
+.ly_ctit img{width: 60%;margin: auto;}
+.list_xc li {border-bottom: 1px #dedede solid;padding: 0 0 14px 14px;margin-bottom: 18px;}
+.list_xc li .info{float: left;font-size: 1.5rem;color: #9b9b9b;line-height: 2.6rem;padding-left: 1rem;border-left: 3px #ffc168 solid;}
+.list_xc li .pc{float: right;width: 24%;}
+.xczt_bt ul li{float: left;width: 32%;margin-left: 2%;}
+.xczt_bt ul li:nth-child(1){margin-left: 0;}
+.mhms_bt ul li{float: left;width: 27%;padding: 3%;}
+.mhms_more{text-align: center;}
+.mhms_more a{border-radius: 15px;border: 1px #c5c5c5 solid;color: #9a9a9a;font-size: 1.8rem;height: 42px;line-height: 42px;width: 30%;max-width: 200px;display: block;margin: auto;}
+

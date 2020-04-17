@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="/arcgis_js_api/library/4.9/esri/css/main.css"/>
+	<script>
+		var version = '4.9';
+		var u = navigator.userAgent;
+		var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios
+		if (isiOS) {
+			version = '4.9.1';
+		}
+		var search = location.search;
+		if (search && /.*?version.*/.test(search)) {
+			version = '4.10';
+			if (isiOS) {
+				version = '4.10.1';
+			}
+		}
+		var dojoConfig = {
+			async: true,
+			parseOnLoad: false/*,
+			  has: {
+				"esri-featurelayer-webgl": 0
+			  }*/
+		}
+		document.write(unescape('%3Cscript type="text/javascript" src="/arcgis_js_api/library/' + version + '/init.js"%3E%3C/script%3E'));
+	</script>
+	<!--    <script src="https://api.map.baidu.com/api?v=2.0&ak=xij08VD9I9mBypfXBbzAsu5PwQRnagGU"></script>-->
+</head>
+<body>
+<div id="app-box"></div>
+<!-- built files will be auto injected -->
+<div style="display: none;">
+	<script type="text/javascript">
+		var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");
+		document.write(unescape("%3Cspan id='cnzz_stat_icon_1275921906'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s96.cnzz.com/z_stat.php%3Fid%3D1275921906%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+</div>
+</body>
+</html>
